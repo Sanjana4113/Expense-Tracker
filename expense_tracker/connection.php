@@ -3,7 +3,7 @@
 // Database connection details
 $servername = "localhost";
 $username = "root";
-$password = "Sbhs230104";
+$password = "";
 $dbname = "exp_tracker";
 
 // Create connection
