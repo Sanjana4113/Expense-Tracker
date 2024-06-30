@@ -17,8 +17,7 @@ if (!$conn) {
 // Function to add expense to database
 function addExpense($date, $description, $amount) {
   global $conn;
-
-  // **Escape user input to prevent SQL injection vulnerabilities**
+  
   $date = mysqli_real_escape_string($conn, $date);
   $description = mysqli_real_escape_string($conn, $description);
   $amount = mysqli_real_escape_string($conn, $amount);
